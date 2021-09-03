@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typography, Button, Container } from '@material-ui/core/';
-import { AcUnitOutlined } from '@material-ui/icons';
+import { KeyboardArrowRight } from '@material-ui/icons';
 
 export default function Create() {
   return (
@@ -19,12 +19,12 @@ export default function Create() {
         type="submit"
         color="secondary"
         variant="contained"
+        endIcon={<KeyboardArrowRight />}
       >
         Submit
       </Button>
 
       {/* Icons */}
-      <AcUnitOutlined />
     </Container>
   );
 }
