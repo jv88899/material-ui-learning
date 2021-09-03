@@ -1,8 +1,12 @@
 import React from 'react';
-import { Typography, Button, Container } from '@material-ui/core/';
+import { Typography, Button, Container, makeStyles } from '@material-ui/core/';
 import { KeyboardArrowRight } from '@material-ui/icons';
 
+const useStyles = makeStyles({});
+
 export default function Create() {
+  const classes = useStyles();
+
   return (
     <Container>
       <Typography
